@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppinss", sans-serif;
+}
+
+body {
+    /* background: linear-gradient(#D8B5FF, #1EAE98); */
+    background: linear-gradient(to right, #FFECD2, #FCB69F);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+}
+
+nav {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-family: "Playwrite NZ", cursive;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: antiquewhite;
+    padding: 7px 10px;
+    border-radius: 9999px;
+}
+
+.breaker {
+    margin: 0 auto;
+    width: 79vw;
+    border: 1px solid black;
+    border-radius: 999px;
+}
+
+.searchbox {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-area {
+    text-align: center;
+}
+
+.text-head {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.text-p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.searchinput {
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    background-color: black;
+    color: white;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.searchinput>input {
+    border: 1px solid black;
+    color: rgb(62, 62, 62);
+    font-weight: 600;
+    padding: 10px 9px;
+    outline: none;
+    font-size: 17px;
+    width: 35vw;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.imageContainer {
+    /* display: flex; */
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+}
+
+.imgcard {
+    border: 2px solid black;
+    height: auto;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.imgcard img {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    object-fit: cover;
+}
