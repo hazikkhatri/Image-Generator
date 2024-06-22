@@ -112,24 +112,6 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .imageContainer {
-    /* display: flex; */
-    height: 100vh;
     width: 70vw;
     margin: auto;
-}
-
-.imgcard {
-    border: 2px solid black;
-    height: auto;
-    width: 350px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-
-}
-
-.imgcard img {
-    width: 100%;
-    height: 100%;
-    display: inline;
-    object-fit: cover;
 }
