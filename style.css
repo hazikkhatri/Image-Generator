@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppinss", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
+    background-color: #f2f2f2;
     /* background: linear-gradient(#D8B5FF, #1EAE98); */
-    background: linear-gradient(to right, #FFECD2, #FCB69F);
 }
 
 .container {
+    background: linear-gradient(to right, #FFECD2, #FCB69F);
     display: flex;
     flex-direction: column;
     width: 80vw;
@@ -30,9 +31,16 @@ nav {
 }
 
 .logo {
-    font-size: 18px;
-    font-family: "Playwrite NZ", cursive;
+    font-size: 26px;
+    font-optical-sizing: auto;
+    font-weight: 400;
     cursor: pointer;
+    font-family: "Dancing Script", cursive;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
 
 ul {
