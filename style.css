@@ -10,7 +10,6 @@
 
 body {
     background-color: #faf0e6;
-    /* background: linear-gradient(#D8B5FF, #1EAE98); */
 }
 
 .container {
@@ -129,4 +128,43 @@ input[type="search"]::-webkit-search-cancel-button {
 .imageContainer {
     width: 70vw;
     margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding: 13px 0;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    ul li a {
+        font-size: 13px;
+    }
+
+    .searchbox {
+        padding: 35px 20px 20px 20px;
+    }
+
+    .text-head {
+        font-size: 21px;
+        padding-bottom: 0px;
+    }
+
+    .text-p {
+        font-size: 14px;
+    }
+
+    .searchinput>input {
+        width: 60vw;
+    }
+
+    .imageContainer {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 }

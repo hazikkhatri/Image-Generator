@@ -9,7 +9,11 @@ document.getElementById("searchBtn").addEventListener("click", (e) => {
     e.preventDefault()
     let searchInput = document.getElementById("searchInput")
     let value = searchInput.value;
-    getPhotos(value)
+    if (value !== "") {
+        getPhotos(value);
+    } else {
+        alert("input valid prompt");
+    }
 
 })
 
