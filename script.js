@@ -24,7 +24,7 @@ const getPhotos = (query) => {
             response.photos.forEach(photo => {
                 let image = document.createElement('img')
                 image.src = photo.src.original;
-                image.width = 400;
+                image.width = 500;
                 image.height = 300;
                 imageContainer.appendChild(image);
             });
