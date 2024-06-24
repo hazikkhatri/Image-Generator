@@ -130,6 +130,10 @@ input[type="search"]::-webkit-search-cancel-button {
     margin: auto;
 }
 
+.imageContainer>img {
+    width: fit-content;
+}
+
 @media screen and (max-width: 480px) {
     nav {
         padding: 13px 0;
