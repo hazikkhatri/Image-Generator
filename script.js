@@ -1,7 +1,7 @@
 const options = {
     method: 'GET',
     headers: {
-        'Authorization': Authorization,
+        'Authorization': "qYdIgQsWqyugd6KlpI2tgrobegyc1wWI9FdhgYv26SXeZpxizSzzMt42",
     }
 };
 
